@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- action button for search
+    <item android:title="Photo"
+        android:id="@+id/search"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/cam_icon"/>-->
+
+    <!-- action button for refresh -->
+    <item android:title="  CHATS   "
+        android:id="@+id/chats"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <!-- action button for copy -->
+    <item android:title="LLAMADAS    "
+        android:id="@+id/calls"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <!-- action button for copy -->
+    <item android:title="CONTACTOS    "
+        android:id="@+id/contacts"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+</menu>
